@@ -206,7 +206,6 @@ const SignUp = () => {
 										id="plan-selection"
 										label="Plano"
 										name="planId"
-										required
 									>
 										{plans.map((plan, key) => (
 											<MenuItem key={key} value={plan.id}>
